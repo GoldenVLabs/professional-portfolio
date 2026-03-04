@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Chris Vancura</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+    <h1 class="highlight-text">Professional Resume</h1>
+    <nav>
+        <a href="index.html">Resume</a> |
+        <a href="coverletter.html">Cover Letter</a> |
+        <a href="goals.html">Career Goals</a>
+    </nav>
+</header>
+<hr>
+
+<main>
+    <article>
+        <section class="resume-top">
+            <img src="images/SensorPhoto.JPG.png" alt="Profile photo of Chris Vancura" class="profile-image">
+            <div>
+                <h2>Experience and Skills</h2>
+                <p>Current Status: <span id="current-date"></span></p>
+
+                <p><strong>Professional Summary:</strong><br>
+                Results-driven healthcare technology leader transitioning into data analytics, with 13+ years of experience bridging clinical operations, Epic EHR systems, and data-driven decision-making. Proven experience includes UAT leadership, HL7 data validation, and large-scale data reconciliation for high-impact initiatives. I am currently completing a B.S. in Data Analytics at <em>Western Governors University</em> (expected October 2026).</p>
+            </div>
+        </section>
+
+        <h3>Technical Skills</h3>
+        <ul>
+            <li>SQL, Python (Pandas, NumPy, Matplotlib), Excel (Power Query, Pivot Tables, XLOOKUP)</li>
+            <li>Tableau, Power BI, and Grafana dashboard development</li>
+            <li>Epic/KP HealthConnect, HL7 data standards, HIPAA compliance, and UAT/validation</li>
+            <li>Docker, Linux CLI, Proxmox VE, virtualization, TCP/IP, and VPN/Tailscale</li>
+            <li>LoRaWAN sensor integration, REST API integrations, and ETL pipelines</li>
+        </ul>
+
+        <section>
+            <h3>Work History</h3>
+            <table>
+                <caption>Professional Background</caption>
+                <thead>
+                    <tr>
+                        <th>Organization</th>
+                        <th>Role</th>
+                        <th>Location</th>
+                        <th>Years</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Klamath Sleep Medicine Center</td>
+                        <td>Polysomnographic Technologist (PRN)</td>
+                        <td>Klamath Falls, OR</td>
+                        <td>2025-Present</td>
+                    </tr>
+                    <tr>
+                        <td>Klamath Basin Behavioral Health</td>
+                        <td>HR Specialist (Benefits and HR Systems)</td>
+                        <td>Klamath Falls, OR</td>
+                        <td>2023-2025</td>
+                    </tr>
+                    <tr>
+                        <td>Kaiser Permanente (Regional)</td>
+                        <td>Clinical Manager, Sleep Services</td>
+                        <td>Regional</td>
+                        <td>2021-2022</td>
+                    </tr>
+                    <tr>
+                        <td>Kaiser Permanente</td>
+                        <td>Sleep Lab Supervisor</td>
+                        <td>Regional</td>
+                        <td>2019-2021</td>
+                    </tr>
+                    <tr>
+                        <td>Sunset Basin Farms</td>
+                        <td>Founder/Operator (IoT Data Engineering)</td>
+                        <td>Klamath Falls, OR</td>
+                        <td>2022-Present</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </article>
+</main>
+
+<footer>
+    <p>&copy; 2026 Chris Vancura</p>
+</footer>
+
+<script>
+    console.log("Resume page loaded successfully.");
+    const d = new Date();
+    document.getElementById("current-date").innerHTML = d.toDateString();
+</script>
+
+</body>
+</html>
